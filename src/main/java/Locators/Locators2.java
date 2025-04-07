@@ -11,7 +11,7 @@ public class Locators2 {
 
     public static void main(String[] args) throws InterruptedException {
         String name ="Sedat";
-        System.setProperty("webdriver.chrome.driver","C:/Users/sedat.ekmel/OneDrive - TESTINIUM Teknoloji Yazılım A.Ş/Masaüstü/IntellijIDEA Projects/SeleniumProjects/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","/Users/sedatekmel/Documents/GitHub/SeleniumUdemy");
         WebDriver driver=new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5)); //Her komuttan sonra max.5 saniye bekleme
         String password=getPassword(driver);

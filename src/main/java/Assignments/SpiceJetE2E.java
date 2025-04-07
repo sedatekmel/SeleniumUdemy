@@ -9,7 +9,7 @@ import org.testng.Assert;
 
 public class SpiceJetE2E {
     public static void main(String[] args) throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "C:/Users/sedat.ekmel/OneDrive - TESTINIUM Teknoloji Yazılım A.Ş/Masaüstü/IntellijIDEA Projects/SeleniumProjects/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "/Users/sedatekmel/Desktop/web drivers/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
@@ -64,6 +64,7 @@ public class SpiceJetE2E {
 
         //Search submit
         driver.findElement(By.id("ctl00_mainContent_btn_FindFlights")).click();
+        Thread.sleep(2000);
         driver.close();
 
     }

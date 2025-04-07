@@ -8,7 +8,7 @@ public class Alerts {
     public static void main(String[] args) {
 
         String name="Sedat Ekmel";
-        System.setProperty("webdriver.chrome.driver","C:/Users/sedat.ekmel/OneDrive - TESTINIUM Teknoloji Yazılım A.Ş/Masaüstü/IntellijIDEA Projects/SeleniumProjects/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "/Users/sedatekmel/Desktop/drivers/chromedriver");
         WebDriver driver=new ChromeDriver();
         driver.get("https://rahulshettyacademy.com/AutomationPractice/");
         driver.manage().window().maximize();
