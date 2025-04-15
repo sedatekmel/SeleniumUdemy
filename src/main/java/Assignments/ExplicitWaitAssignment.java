@@ -39,7 +39,7 @@ public class ExplicitWaitAssignment {
         driver.findElement(By.id("signInBtn")).click();
     }
 
-    spublic static void addItemsToBasket(WebDriver driver,WebDriverWait w)
+    public static void addItemsToBasket(WebDriver driver,WebDriverWait w)
     {
         //Add butonu tıklanabilir olana kadar signInBtn sonrası beklemeye al.
         //wait.until(ExpectedConditions.visibilityOfElementLocated(By.partialLinkText("Checkout")));  Alternatif Shutty Çözümü
