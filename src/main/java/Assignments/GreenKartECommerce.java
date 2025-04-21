@@ -37,9 +37,7 @@ public class GreenKartECommerce {
         /* EXPLICIT WAIT */
         w.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("span.promoInfo")));//span.promoInfo locatorını DOM'da görene kadar 5 saniye bekler
         System.out.println(driver.findElement(By.cssSelector("span.promoInfo")).getText());
-
     }
-
     public static void addItems(WebDriver driver, String[] itemsNeeded) {
         List<WebElement> productNames = driver.findElements(By.cssSelector("h4.product-name")); //ürün isimlerini aldı
         int j = 0;
@@ -53,7 +51,6 @@ public class GreenKartECommerce {
         }*/
         //****Farklı productlar ekleme
         for (int i = 0; i < productNames.size(); i++) {
-
             //format it to get actual vegetable name
             //Brocolli - 1 Kg
             String[] name = productNames.get(i).getText().split("-"); //name[0] : Brocolli, name[1]:1 Kg
