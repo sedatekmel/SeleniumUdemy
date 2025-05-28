@@ -18,6 +18,7 @@ public class GetHeightAndWidthOfWebElement {
 
         System.out.println(nameInput.getRect().getDimension().getHeight());
         System.out.println(nameInput.getRect().getDimension().getWidth());
+
     }
 
 }
