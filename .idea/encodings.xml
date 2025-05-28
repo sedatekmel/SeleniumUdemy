@@ -3,5 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/SeleniumTutorial/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SeleniumTutorial/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TestNGTutorial/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TestNGTutorial/src/main/resources" charset="UTF-8" />
   </component>
 </project>
