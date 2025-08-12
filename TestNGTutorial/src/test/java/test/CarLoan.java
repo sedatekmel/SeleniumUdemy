@@ -1,5 +1,6 @@
 package test;
 
+import org.testng.Assert;
 import org.testng.annotations.*;
 
 import java.sql.SQLOutput;
@@ -37,6 +38,7 @@ public class CarLoan {
     @Test(groups = {"Smoke"})
     public void APILoginCarAlone() {
         System.out.println("APILoginCar");
+        Assert.assertTrue(false);
     }
 
     @AfterSuite
