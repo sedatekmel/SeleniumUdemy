@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Personal Loan"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.001">
+    <properties></properties>
+
+
+
+            <testcase
+                name="askSomething"
+                time="0.001"
+                classname="test.Test2Intro">
+            </testcase>
+</testsuite>

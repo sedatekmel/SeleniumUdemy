@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Personal Loan"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.002">
+    <properties></properties>
+
+
+
+            <testcase
+                name="APILoginHomeAlone"
+                time="0.000"
+                classname="test.HomeLoan">
+            </testcase>
+            <testcase
+                name="WebLoginHomeLoan"
+                time="0.002"
+                classname="test.HomeLoan">
+            </testcase>
+</testsuite>
